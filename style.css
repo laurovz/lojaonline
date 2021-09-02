@@ -1,0 +1,120 @@
+@charset 'UTF-8';
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header > a > .lupa {
+    max-width: 85px;
+    max-height: 25px;
+}
+
+.banner {
+    max-width: 100%;
+    display: block;
+}
+.promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+article > a > img {
+    max-width: 300px;
+    max-height: 200px;
+}
+header > .banner {
+    max-width: 100%;
+}
+article img {
+    max-width: 100%;
+    display: block;
+    height: 150px;
+    width: 150px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.flex > div {
+    flex: 1 200px;
+    margin: 20px;
+}
+.flex > div > img {
+    border-radius: 3px;
+}
+.flex > div > p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4px;
+}
+.flex > div > p > a {
+    color: green;
+    text-decoration: none;
+}
+footer {
+    background-color: rgba(128, 128, 128, 0.123);
+}
+footer article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer article p  {
+    padding-bottom: 5px;
+}
+.img {
+    background-color: rgba(128, 128, 128, 0.123);
+}
+article > .p > p > a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.img > .rede {
+    display: flex;
+}
+.img > .pagamento {
+    display: flex;
+}
+.img > .rede > .insta > a > img {
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+}
+.img > .rede > .face > a > img {
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+} 
+.img > .pagamento > .master > img {
+    width: 45px;
+    height: 40px;
+    padding-right: 15px;
+}
+.img > .pagamento > .paypal > img {
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+}
+.img > .pagamento > .visa > img {
+    width: 40px;
+    height: 20px;
+    padding-right: 15px;
+} 
